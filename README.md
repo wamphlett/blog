@@ -1,5 +1,2 @@
-# Blog Entries
-Personal Blog Entries
-
-## Index
-- [My first post](./entries/1654858995_my_first_post.md) (2022-06-10)
+# My Personal Ramblings
+Im usually working on one project or another and needed somewhere to dump information, so this is that place!
