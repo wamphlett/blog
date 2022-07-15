@@ -10,11 +10,11 @@ For a long time, my site was just a single page with a few words on it. At the t
 
 ## Time to add a blog
 
-The intention has always been to have a place where I can write about the stuff I work on, but its just one of them things which has always fallen to the bottom of the priority list. While [building my Arcade](../ultracade/README.md), I really started to get frustrated that I didn't have somewhere to put all my updates so I set out to start making a blog.
+The intention has always been to have a place where I can write about the stuff I work on, but its just one of them things which has always fallen to the bottom of the priority list. While [building my arcade](../ultracade/README.md), I really started to get frustrated that I didn't have somewhere to put all my updates so I set out to start making a blog.
 
 I needed something really simple, anything complicated or tedious to manage would just end up being another dead project that gets neglected. Markdown couldn't be any less simple to manage and requires little to no management so I started designing a solution with Markdown as my base. 
 
-The [blog repository](https://github.com/wamphlett/blog) couldn't be any simpler, its just a bunch of Markdown files grouped by a topic. Each topic has its own overview page and a then a collection of articles. It was important to me that if you went to the repository, you could navigate the blog happily without ever needing to visit the website. In my opinion, Github handles this really well, the topic overview pages are just the README files and then you can navigate to any article within the topic.
+The [blog repository](https://github.com/wamphlett/blog) couldn't be any simpler, its just a bunch of Markdown files grouped by a topic. Each topic has its own overview page and a then a collection of articles. It was important to me that if you went to the repository, you could navigate the blog happily without ever needing to visit the website. In my opinion, Github handles this really well, the topic overview pages are just the `README.md` files and then you can navigate to any article within the topic.
 
 ## Serving the markdown to a website
 Now that the blog was sorted, I needed a way to get that Markdown and put it on my website so that I could style it a bit and "make it look prettier". I ended up writing [a small Go server](https://github.com/wamphlett/blog-server) which clones the blog repository, looks at all the files and indexes them. 
@@ -48,36 +48,35 @@ I had a similar issue with all the relative links to static content. I handled t
 
 ```go
 // serve static files
-s.router.PathPrefix(fmt.Sprintf("/%s/", assetDir)).Handler(neuter(http.FileServer(http.Dir(contentDir))))
+s.router.PathPrefix(fmt.Sprintf("/%s/", assetDir))
+  .Handler(neuter(http.FileServer(http.Dir(contentDir))))
 ```
 
 Finally, I needed a way to turn my Markdown into HTML. I decided to do this on the server so that I have more control and I ended up using [Goldmark](https://github.com/yuin/goldmark) which completely does everything I need out of the box.
 
 ## Updating the website
-So I now have a blog and an API to return the entries, I needed a site to display them. As much as I would have loved to use Flutter for this, its just not the best tool for a conventional website due to the fact everything is one large canvas!
-
-I have a fair amount of [React JS](https://reactjs.org/) experience so I decided to put together a real simple site.
+So I now have a blog and an API to return the entries, I needed a site to display them. As much as I would have loved to use Flutter for this, its just not the best tool for a conventional website due to the fact everything is one large canvas! I have a fair amount of [React JS](https://reactjs.org/) experience so I decided to put together a real simple site using that instead.
 
 I've grown quite fond of the [Flutter home page](https://warrenamphlett.co.uk/) and wasn't ready to say goodbye yet so I decided to keep it. My [Caddy server](https://caddyserver.com/v2) is just set up to pass the URIs to the relevant containers.
 
 ```
 warrenamphlett.co.uk {
-    handle / {
-        reverse_proxy wamphlett:80
-    }
+  handle / {
+    reverse_proxy wamphlett:80
+  }
 
-    handle /main.dart.js {
-        reverse_proxy wamphlett:80
-    }
+  handle /main.dart.js {
+    reverse_proxy wamphlett:80
+  }
 
-    handle /assets/* {
-        reverse_proxy wamphlett:80
-    }
+  handle /assets/* {
+    reverse_proxy wamphlett:80
+  }
 
-    # fall back to serving everything from the blog
-    handle {
-        reverse_proxy wamphlett-blog:80
-    }
+  # fall back to serving everything from the blog
+  handle {
+    reverse_proxy wamphlett-blog:80
+  }
 }
 ```
 
