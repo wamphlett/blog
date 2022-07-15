@@ -33,14 +33,14 @@ Next, I needed a way to replace all of the relative links with the URI of intend
 
 ```go
 func (r *Reader) replaceRelativeLinks(s, path string) string {
-	reg := regexp.MustCompile(`(\[[\w\d\s\-!?]*\]\()(\.[\/\.\w\d\-]*)\)`)
-	for _, match := range reg.FindAllStringSubmatch(s, -1) {
-		linkedFilePath := filepath.Clean(filepath.Join(filepath.Dir(path), match[2]))
-		if p := r.index.GetURIForFile(linkedFilePath); p != "" {
-			s = strings.ReplaceAll(s, match[0], fmt.Sprintf("%s%s)", match[1], p))
-		}
-	}
-	return s
+  reg := regexp.MustCompile(`(\[[\w\d\s\-!?]*\]\()(\.[\/\.\w\d\-]*)\)`)
+  for _, match := range reg.FindAllStringSubmatch(s, -1) {
+    linkedFilePath := filepath.Clean(filepath.Join(filepath.Dir(path), match[2]))
+    if p := r.index.GetURIForFile(linkedFilePath); p != "" {
+      s = strings.ReplaceAll(s, match[0], fmt.Sprintf("%s%s)", match[1], p))
+    }
+  }
+  return s
 }
 ```
 
