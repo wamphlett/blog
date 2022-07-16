@@ -59,7 +59,7 @@ So I now have a blog and an API to return the entries, I needed a site to displa
 
 I've grown quite fond of the [Flutter home page](https://warrenamphlett.co.uk/) and wasn't ready to say goodbye yet so I decided to keep it. My [Caddy server](https://caddyserver.com/v2) is just set up to pass the URIs to the relevant containers.
 
-```
+```nginx
 warrenamphlett.co.uk {
   handle / {
     reverse_proxy wamphlett:80
