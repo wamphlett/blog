@@ -1,5 +1,6 @@
 <!--
 title: This site
+description: How I added a blog to my existing site
 slug: my-site
 published: true
 -->
