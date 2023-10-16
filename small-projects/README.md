@@ -1,5 +1,6 @@
 <!--
 title: Small projects
+description: Random things I work on
 slug: small-projects
 published: true
 -->
