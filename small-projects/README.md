@@ -3,7 +3,6 @@ title: Small projects
 description: Random things I work on
 slug: small-projects
 published: true
-image: https://library.wamphlett.net/photos/website/2023/albania/1920/lifes-better-by-the-sea.jpg
 custom-header-1: custom1
 custom-header-2: custom2
 -->
