@@ -16,3 +16,17 @@ Firstly, all of the LEDs have to be addressable to get the most out of our contr
 - **Fans:** this was an easy choice. The [Phanteks D30's](https://phanteks.com/PH-F120D30.html) come with 15 addressable LEDs each, they also come in a reversable variant meaning that no matter where the fan is positioned, we can always get the full RGB effect.
 - **Water cooling components:** as well as the classic RGB elements, I wanted to get cooling components with RGB. I settled with the blocks from [EK waterblocks](https://www.ekwb.com/), each component comes with its own addressable RGB strips - even the flow meter!
 
+## Powering the controller
+wip
+
+## Parallel vs Series
+So if you want to have effects which run up and down a group of LEDs, the LEDs have to be wired in series. The problem is, most PC RGB solutions are wired in parallel. This means your effects will be grouped to each component only and thats not going to give us very exciting effects. So we need to do a bit of custom wiring.
+
+The case comes with 2 led strips which surround the motherboard, wiring these in parallel was easy enough. I soldered a wire to the data terminal on the end of one of the strips and ran that back to the other strip. Now we have 2 strips in series, easy.
+
+The fans are a little more fiddly. They are connected with some proprietry clips with data and power being injected from one side. On the other side, we can use the same clips but need to trim some of the plastic as the clips are keyed to prevent people installing them the wrong way. Now that we have the clips installed backward, its just a case of finding out which wire is connected to the data terminal and wiring that directly to the input data line of the next fan group. Repeat this for each group and now we have 8 fans in series.
+
+The EK water components are where things get tricky. Due to the way the strips are installed into each of the products, there is no way to access the end of each LED strip. This means we cannot extend the data line to the next component and are therefore forced to leave these in parallel. I considered running another microcontroller to sit between all of these components make a virtual series circuit but this seems like a lot of effort for little gain. For now I am happy to have less control over these smaller components and if it bothers me in the future, maybe I'll update it.
+
+# The result
+wip
