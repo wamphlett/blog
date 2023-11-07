@@ -3,10 +3,15 @@ title: Crafting a Custom Lighting Solution
 description: Making a custom lighting solution for the Phanteks NV7 using WLED
 slug: custom-lighting
 published: false
-created: 2023-10-02
+created: 2023-11-02
+updated: 2023-11-07
 -->
 # Crafting a Custom Lighting Solution 
-Ever since I bought my first Phillips Hue RGB lights, I've had an undeniable love for RGB lighting. It wasn't long ago when I worked on embedding custom LEDs for my arcade machine, and oh, the results were worth all the pain! However, as much as I love RGB, when it comes to commercially available PC hardware controllers, it's hard to ignore the limitations that come with them. Many of them just don't offer the range of effects that a true LED enthusiast craves. On the software side, while there are solutions available, they often come with bugs and limiting features, causing more frustration than fascination. And let's not even get started on trying to make different hardware components play nicely together—it's a compatibility nightmare! So, with a mix of passion and a pinch of frustration, I set out to create a custom lighting solution for my new computer case, hoping to overcome these challenges.
+Ever since I bought my first Phillips Hue RGB lights, I've had an undeniable love for RGB lighting. It wasn't long ago when I worked on embedding custom LEDs for my arcade machine, and oh, the results were worth all the pain! I knew I had to do the same for my next PC build.
+
+However, as much as I love RGB, when it comes to commercially available PC hardware controllers, it's hard to ignore the limitations that come with them. Many of them just don't offer the range of effects that a true LED enthusiast craves. On the software side, while there are solutions available, they often come with bugs and limiting features, causing more frustration than its worth. And let's not even get started on trying to make different hardware components play nicely together—it's a compatibility nightmare! 
+
+So, with a mix of passion and a pinch of frustration, I set out to create a custom lighting solution for my new computer case, hoping to overcome these challenges.
 
 ## Choosing the hardware
 Firstly, all of the LEDs have to be addressable to get the most out of our controller. 
@@ -20,9 +25,13 @@ Firstly, all of the LEDs have to be addressable to get the most out of our contr
 wip
 
 ## Parallel vs Series
-So if you want to have effects which run up and down a group of LEDs, the LEDs have to be wired in series. But here's the catch: most standard PC RGB setups wire their LEDs in parallel. This arrangement restricts effects to individual components, resulting in far less dynamic displays than what we want. So we need to do a bit of custom wiring.
+If you want to have effects which run up and down a group of LEDs, the LEDs have to be wired in series. But here's the catch: most standard PC RGB setups wire their LEDs in parallel. This arrangement restricts effects to individual components, resulting in far less dynamic displays than what we want. So we need to do a bit of custom wiring.
 
 Starting with the case, it came equipped with two LED strips framing the motherboard. Converting these from parallel to series was relatively straightforward. I simply soldered a wire to the data terminal of one strip and extended it to connect with the other. Voilà! Both strips now functioned in series.
+
+<div class="images single">
+  <img src="https://library.wamphlett.net/photos/blog/articles/nv7-wiring.jpg" />
+</div>
 
 The fans, however, posed a more intricate challenge. These fans were equipped with proprietary connectors, with power and data injected from one side. The flip side of these connectors had to be tweaked a bit. Due to a design meant to prevent incorrect installation, some plastic trimming was necessary to make them fit. After adjusting the connectors, the next step was to identify the wire associated with the data terminal. Once located, it was wired directly to the data input of the subsequent fan cluster. Repeating this process linked all eight fans in a series.
 
