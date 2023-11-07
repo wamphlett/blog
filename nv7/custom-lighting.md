@@ -16,10 +16,17 @@ So, with a mix of passion and a pinch of frustration, I set out to create a cust
 ## Choosing the hardware
 Firstly, all of the LEDs have to be addressable to get the most out of our controller. 
 
-- **The LED controller:** around the rest of the house, I run [WLED](https://kno.wled.ge/) on [QuinLED boards](https://quinled.info/). I love the flexibility and effects WLED gives you. The boards are also small enough to fit in the case and even better, I can run/manage the LEDs independently of the computer which means no more horrible LED software to deal with in Windows.
-- **Case lighting:**  the case has already been chosen but we're lucky, the [NV7](https://phanteks.com/NV7.html) comes with some really stylish case lighting.
-- **Fans:** this was an easy choice. The [Phanteks D30's](https://phanteks.com/PH-F120D30.html) come with 15 addressable LEDs each, they also come in a reversable variant meaning that no matter where the fan is positioned, we can always get the full RGB effect.
-- **Water cooling components:** as well as the classic RGB elements, I wanted to get cooling components with RGB. I settled with the blocks from [EK waterblocks](https://www.ekwb.com/), each component comes with its own addressable RGB strips - even the flow meter!
+### The LED controller
+Around the rest of the house, I run [WLED](https://kno.wled.ge/) on [QuinLED boards](https://quinled.info/). I love the flexibility and effects WLED gives you. The boards are also small enough to fit in the case and even better, I can run/manage the LEDs independently of the computer which means no more horrible LED software to deal with in Windows.
+
+### Case lighting
+The case has already been chosen but we're lucky, the [NV7](https://phanteks.com/NV7.html) comes with some really stylish case lighting.
+
+### Fans
+This was an easy choice. The [Phanteks D30's](https://phanteks.com/PH-F120D30.html) come with 15 addressable LEDs each, they also come in a reversable variant meaning that no matter where the fan is positioned, we can always get the full RGB effect.
+
+### Water cooling components
+As well as the classic RGB elements, I wanted to get cooling components with RGB. I settled with the blocks from [EK waterblocks](https://www.ekwb.com/), each component comes with its own addressable RGB strips - even the flow meter!
 
 ## Powering the controller
 wip
@@ -37,5 +44,5 @@ The fans, however, posed a more intricate challenge. These fans were equipped wi
 
 Then came the EK water components, and they were a different ball game altogether. Because of their design, the ends of the LED strips within these components were inaccessible. This made it impossible to extend the data line from one to the next, leaving me with no choice but to maintain a parallel configuration. I did consider introducing an intermediary microcontroller to create a simulated series circuit, but the potential gains seemed to be outweighed by the complexity of the task. For now, I've made peace with having slightly reduced control over these components. If it bothers me in the future, I might revisit the idea.
 
-# The result
+## The result
 wip
