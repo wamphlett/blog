@@ -2,8 +2,6 @@
 title: Crafting a Custom Lighting Solution 
 description: Making a custom lighting solution for the Phanteks NV7 using WLED
 slug: custom-lighting
-published: false
-created: 2023-11-02
 updated: 2023-11-07
 -->
 # Crafting a Custom Lighting Solution 

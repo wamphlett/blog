@@ -2,9 +2,7 @@
 title: Small projects
 description: Random things I work on
 slug: small-projects
-published: true
-custom-header-1: custom1
-custom-header-2: custom2
+published: 2022-07-16
 -->
 # Small projects
 Small projects which don't warrant their own topics but significant enough that I should probably write something about them.

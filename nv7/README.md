@@ -1,7 +1,6 @@
 <!--
 title: NV7 Pc Build
 slug: nv7
-published: false
 created: 2023-10-02
 project-status: in-progress
 -->

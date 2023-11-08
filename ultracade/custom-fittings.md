@@ -1,7 +1,6 @@
 <!--
 title: Custom Fittings
 slug: custom-fittings
-published: false
 -->
 # The problem with fittings
 Building your own custom arcade leads to some interesting problems. One that left me scratching my head for far too long was fittings; how do I neatly attach all the circuit boards to the cab? How am I going to seamlessly attach the main glass screen to the cab? What specific brackets do I need to hold the speaker grills in place and can I find those specific brackets at exactly 6mm in length? You get the idea, lots of Googling with results that often matched only 90% of the criteria for the given fitting. After lots of trial and error, wasted time and money and probably new bald patches on my head I decided a custom arcade cab deserves custom fittings. 

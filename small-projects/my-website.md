@@ -2,7 +2,7 @@
 title: This site
 description: How I added a blog to my existing site
 slug: my-site
-published: true
+published: 2022-07-16
 -->
 # My Website
 I've been wanting to flesh out my site for a long time and I finally got round to it!
