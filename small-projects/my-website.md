@@ -1,6 +1,7 @@
 <!--
 title: This site
 description: How I added a blog to my existing site
+image: https://library.wamphlett.net/photos/blog/headers/my-website.jpg
 slug: my-site
 published: 2022-07-16
 -->
