@@ -54,10 +54,11 @@ This configuration has left me with 3 groups of LEDs which can all be controlled
 <div class="images single">
   <img src="https://library.wamphlett.net/photos/blog/nv7/rgb-wiring-diagram.jpg?w=1920" />
 </div>
+
 ## The result
 The results are amazing. I have never had this much control over my PC lighting before. Having the power of WLED behind the LEDs means I can show this case off in any style I like from classic and classy to fully sequenced RGB vomit animation if I so wish.
 
-Ill let it speak for itself
+I'll let it speak for itself
 
 <div class="images single">
   <img src="https://library.wamphlett.net/photos/blog/nv7/rgb-showcase.gif" />
