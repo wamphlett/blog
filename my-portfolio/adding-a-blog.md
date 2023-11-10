@@ -1,18 +1,16 @@
 <!--
-title: This site
+title: Adding a blog
 description: How I added a blog to my existing site
 image: https://library.wamphlett.net/photos/blog/headers/my-website.jpg
-slug: my-site
-hidden: true
+slug: adding-a-blog
 published: 2022-07-16
 -->
-# My Website
+# Adding a blog
 I've been wanting to flesh out my site for a long time and I finally got round to it!
 
 For a long time, my site was just a single page with a few words on it. At the time of making the site, I was doing a lot of [Flutter](https://flutter.dev/multi-platform/web) mobile work and the Flutter team were getting ready to launch their web implementation. Because I loved working with Flutter, I decided to try and make the site on their beta branch and as with any Flutter development, it was a breeze - seriously, if you haven't checked Flutter out, do it! It make front end work enjoyable again!
 
 ## Time to add a blog
-
 The intention has always been to have a place where I can write about the stuff I work on, but its just one of them things which has always fallen to the bottom of the priority list. While [building my arcade](../ultracade/README.md), I really started to get frustrated that I didn't have somewhere to put all my updates so I set out to start making a blog.
 
 I needed something really simple, anything complicated or tedious to manage would just end up being another dead project that gets neglected. Markdown couldn't be any less simple to manage and requires little to no management so I started designing a solution with Markdown as my base. 

@@ -1,7 +1,8 @@
 <!--
 title: NV7 Pc Build
+description: Building a water cooled PC with custom effects
 slug: nv7
-created: 2023-10-02
+published: 2023-10-02
 project-status: in-progress
 -->
 # NV7 PC Build
