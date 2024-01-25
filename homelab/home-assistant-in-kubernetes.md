@@ -5,7 +5,7 @@ image: https://library.wamphlett.net/photos/blog/homelab/home-assistant-k8s.png
 slug: home-assistant-in-kubernetes
 -->
 # Cross-VLAN Home Assistant inside K8S
-I have been running Home Assistant in [Microk8s](https://microk8s.io/) for several years now without any issues. Simply just running the [Home Assistant core container](https://github.com/home-assistant/core/pkgs/container/home-assistant)with a persistent storage claim.
+I have been running Home Assistant in [Microk8s](https://microk8s.io/) for several years now without any issues. Simply just running the [Home Assistant core container](https://github.com/home-assistant/core/pkgs/container/home-assistant) with a persistent storage claim.
 
 ```yaml
 apiVersion: apps/v1
@@ -44,7 +44,7 @@ spec:
 And its really that easy. Deploy it. Serve it. Enjoy.
 
 ## So why change it?
-Recently I gave my home lab a big refresh. I moved away from Microk8s in favour of [K3S](https://k3s.io/) and I became a lot stricter with my network security. Although I have alway segregated my IoT devices onto their own network, there has always been a few exceptions to the rule - mostly thanks to network discovery. My Home Assistant always ran on the host network too, this is the most suggested thing on the internet for people who end up in this position, and sure its super convenient, one line and all your discoverability issue go away.
+Recently I gave my home lab a big refresh. I moved away from Microk8s in favour of [K3S](https://k3s.io/) and I became a lot stricter with my network security. Although I have alway segregated my IoT devices onto their own network, there has always been a few exceptions to the rule - mostly thanks to network discovery. My Home Assistant always ran on the host network too, this is the most suggested thing on the internet for people who end up in this position, and sure its super convenient, one line and all your discoverability issues go away.
 
 ```yaml
 hostNetwork: true
@@ -54,6 +54,8 @@ But this increases your attack surface. Okay, you might not think about that imm
 
 ## Configuring the network
 My network is split up into multiple networks but for the sake of this post we'll keep it simple and focus on the two that matter; IoT devices on VLAN 1 and the server network on VLAN 2. My firewall is configured to block all inter-VLAN communication. Why? Because I have a lot of smart device from all sorts of random places and do I trust them? No, and nor should you. But Home Assistant is no use to us if it cant actually see any devices so we need an override rule to allow the Home Assistant instance to talk to the IoT network, but not the other way around.
+
+<img src="https://library.wamphlett.net/photos/blog/homelab/home-assistant-firewall-rule.png?w=1080" />
 
 So now Home Assistant can talk directly to the IoT devices. But its still not discovering new devices yet.
 
@@ -72,7 +74,7 @@ Then I used that port group in my new firewall rules
 
 We can now use a tool such as `avahi-browse` to validate that the dns is propagated to our K3S node. 
 
-```
+```shell
 avahi-browse -a
 +  ens18 IPv6 Presence-Sensor-FP2-1446                      _hap._tcp            local
 +  ens18 IPv4 Philips Hue HomeKit                           _hap._tcp            local
@@ -85,17 +87,23 @@ This part of the puzzle had me on a wild goose chase for a long time. Endless ho
 
 Well thanks to user [lddubeau](https://community.home-assistant.io/u/lddubeau) over on the Home Assistant community forums, [he figured out](https://community.home-assistant.io/t/containers-avoiding-privileged-and-host-network-as-much-as-possible/60792/7) that if you set up an Avahi daemon on the host, you can repeat these devices to the kubernetes/docker network. So thats what I did, I installed Avahi on each of my K3S nodes where Home Assistant runs:
 
-```bash
+```shell
 sudo apt-get update 
 sudo apt-get install avahi-daemon
 ```
 
 Edited the config `/etc/avahi/avahi-daemon.conf` to include a reflector
 
-```
+```shell
 [reflector]
 enable-reflector=no
 reflect-ipv=no
+```
+
+Restarted the daemon
+
+```shell
+sudo systemctl restart avahi-daemon
 ```
 
 And thats it, Home Assistant now can see the devices it couldn't see before and it doesn't need access to the host network. 
@@ -156,4 +164,4 @@ spec:
 ```
 
 ## Summary
-This approach might be overkill for most people but if like me you have reservations about giving Home Assistant access to the host network, hopefully this give you a way forward. 
+This approach might be overkill for most people but if like me you have reservations about giving Home Assistant access to the host network, hopefully this gives you a way forward. 
