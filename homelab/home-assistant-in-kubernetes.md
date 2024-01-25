@@ -3,6 +3,7 @@ title: Cross-VLAN Home Assistant inside K8S
 description: Running Home Assistant across VLANs in Kubernetes without using the host network
 image: https://library.wamphlett.net/photos/blog/homelab/home-assistant-k8s.png
 slug: home-assistant-in-kubernetes
+published: 2024-01-25
 -->
 # Cross-VLAN Home Assistant inside K8S
 I have been running Home Assistant in [Microk8s](https://microk8s.io/) for several years now without any issues. Simply just running the [Home Assistant core container](https://github.com/home-assistant/core/pkgs/container/home-assistant) with a persistent storage claim.
@@ -44,23 +45,23 @@ spec:
 And its really that easy. Deploy it. Serve it. Enjoy.
 
 ## So why change it?
-Recently I gave my home lab a big refresh. I moved away from Microk8s in favour of [K3S](https://k3s.io/) and I became a lot stricter with my network security. Although I have alway segregated my IoT devices onto their own network, there has always been a few exceptions to the rule - mostly thanks to network discovery. My Home Assistant always ran on the host network too, this is the most suggested thing on the internet for people who end up in this position, and sure its super convenient, one line and all your discoverability issues go away.
+Recently I gave my home lab a big refresh. I moved away from Microk8s in favour of [K3S](https://k3s.io/) and became a lot stricter with my network security. Although I have always segregated my IoT devices onto their own network, there has always been a few exceptions to the rule - mostly thanks to network discovery. My Home Assistant also ran on the host network too, this is the most suggested thing on the internet for people who end up in this position, and sure, its super convenient, one line and all your discoverability issues go away.
 
 ```yaml
 hostNetwork: true
 ```
 
-But this increases your attack surface. Okay, you might not think about that immediately and it might not even matter if you're not exposing your Home Assistant to the world. But after spending an extended time trying to ensure my network is as secure as possible, giving home assistant access to a nodes host network seems pretty risky. One vulnerability in Home Assistant and now someone has access to a lot more than just my smart lights.  
+The problem with this approach is, it increases your attack surface. Okay, you might not think about that immediately and it might not even matter if you're not exposing your Home Assistant to the world. But after spending an extended time trying to ensure my network is as secure as possible, giving Home Assistant access to a nodes host network seems pretty risky. One vulnerability in Home Assistant and now someone has access to a lot more than just my smart lights.  
 
 ## Configuring the network
-My network is split up into multiple networks but for the sake of this post we'll keep it simple and focus on the two that matter; IoT devices on VLAN 1 and the server network on VLAN 2. My firewall is configured to block all inter-VLAN communication. Why? Because I have a lot of smart device from all sorts of random places and do I trust them? No, and nor should you. But Home Assistant is no use to us if it cant actually see any devices so we need an override rule to allow the Home Assistant instance to talk to the IoT network, but not the other way around.
+My network is split up into multiple networks but for the sake of this post we'll keep it simple and focus on the two that matter; IoT devices on VLAN 1 and the server network on VLAN 2. My firewall is configured to block all inter-VLAN communication. Why? Because I have a lot of smart device from all sorts of random places, and do I trust them? No, and nor should you. However, Home Assistant is no use to us if it can't actually see any devices, so we need an override rule to allow the Home Assistant instance to talk to the IoT network, but not the other way around.
 
 <img src="https://library.wamphlett.net/photos/blog/homelab/home-assistant-firewall-rule.png?w=1080" />
 
-So now Home Assistant can talk directly to the IoT devices. But its still not discovering new devices yet.
+So now Home Assistant can talk directly to the IoT devices, but its still not discovering new devices yet.
 
 ## Device discovery
-Home Assistant relies on mDNS to find devices on your network but by default, mDNS only propagates on the network where the device is connected. Well, we have put the devices on a different network to our Home Assistant instance so this is why Home Assistant cant see these devices. This can be resolved by using an mDNS repeater. In my case, Unifi has one built right in so I can tell it to repeat the mDNS packets from the IoT network on VLAN 1 to the servers on VLAN 2. 
+Home Assistant relies on mDNS to find devices on your network, but by default, mDNS only propagates on the network where the device is connected. Well, we have put the devices on a different network to our Home Assistant instance so this is why Home Assistant cant see these devices. This can be resolved by using an mDNS repeater. In my case, Unifi has one built right in so I can tell it to repeat the mDNS packets from the IoT network on VLAN 1 to the servers on VLAN 2. 
 
 <img src="https://library.wamphlett.net/photos/blog/homelab/mdns-settings.png?w=1080" />
 
@@ -72,7 +73,7 @@ Then I used that port group in my new firewall rules
 
 <img src="https://library.wamphlett.net/photos/blog/homelab/mdns-firewall-rules.png?w=1080" />
 
-We can now use a tool such as `avahi-browse` to validate that the dns is propagated to our K3S node. 
+We can now use a tool such as `avahi-browse` to validate that the DNS is propagated to our K3S node. 
 
 ```shell
 avahi-browse -a
@@ -80,7 +81,7 @@ avahi-browse -a
 +  ens18 IPv4 Philips Hue HomeKit                           _hap._tcp            local
 ```
 
-Perfect. Now if we were happy using the host network, there is nothing more for us to do but as I said previously, Im not comfortable with that.
+Perfect. Now if we were happy using the host network, there is nothing more for us to do but as I said previously, I'm not comfortable with that.
 
 ## Avoiding the host network
 This part of the puzzle had me on a wild goose chase for a long time. Endless hours spent staring at Wireshark and trawling forum posts trying to figure out how I can poke the mDNS records into the Home Assistant pod without giving it access to the hosts network. 
@@ -111,9 +112,9 @@ And thats it, Home Assistant now can see the devices it couldn't see before and 
 <img src="https://library.wamphlett.net/photos/blog/homelab/discovered.jpg?w=1080" />
 
 ## Making the instance available
-Now that Home Assistant is managing devices, we can make make it available. I use [Traefik](https://traefik.io/traefik/) with automatic TLS certificates for network ingest. Im not going to go into detail about how I set this up, there are many better articles for this. 
+Now that Home Assistant is managing devices, we can make make it available. I use [Traefik](https://traefik.io/traefik/) with automatic TLS certificates for network ingest. I'm not going to go into detail about how I set this up, there are many better articles for this. 
 
-Using our deployment from earlier with the removed `hostNetwork` option, we can point a service at Home Assistant
+Using our deployment from earlier with the removed `hostNetwork` option, we can point a service at Home Assistant.
 
 ```yaml
 kind: Service
@@ -131,7 +132,7 @@ spec:
       targetPort: 8123
 ```
 
-And finally define an Ingress
+And finally define an Ingress.
 
 ```yaml
 apiVersion: networking.k8s.io/v1
@@ -164,4 +165,4 @@ spec:
 ```
 
 ## Summary
-This approach might be overkill for most people but if like me you have reservations about giving Home Assistant access to the host network, hopefully this gives you a way forward. 
+This approach might be overkill for most people, but if like me you have reservations about giving Home Assistant access to the host network, hopefully this gives you a way forward. 
