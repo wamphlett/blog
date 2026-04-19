@@ -1,7 +1,7 @@
 <!--
 title: Connecting GKE to my home lab via Tailscale.
 description: How I connected my private home lab to GKE using Tailscale to run reliable, external monitoring without exposing services to the internet.
-image: https://library.wamphlett.net/photos/blog/homelab/home-assistant-k8s.png
+image: https://library.wamphlett.net/photos/blog/homelab/uptime-kuma.jpg
 slug: gke-with-tailscale
 published: 2026-04-19
 -->
