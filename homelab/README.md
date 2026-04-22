@@ -10,7 +10,8 @@ They say the best way to learn how to swim is to jump in the deep end, right? Su
 
 My "lab" has evolved over the years. I started out with a crappy router and a bare metal ubuntu server running [microk8s](https://microk8s.io/) and over the years I have acquired more hardware to make things more robust. I'm currently running a fully managed Unifi network, [K3S](https://k3s.io/) on top of [Proxmox](https://www.proxmox.com/en/) nodes and Synology for network storage. 
 
-<img src="https://library.wamphlett.net/photos/blog/homelab/first-proxmox-node.jpg?w=1080" />
-*setting up my first proxmox node using old computer parts.*
+<img src="https://library.wamphlett.net/photos/blog/homelab/first-proxmox-node.jpg?w=1080" alt="setting up my first proxmox node using old computer parts." />
+
+_setting up my first proxmox node using old computer parts._
 
 Many years have passed since I set off down this path but I will do my best to document the interesting things from here on. 
