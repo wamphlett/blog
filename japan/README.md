@@ -3,7 +3,7 @@ title: Japan
 description: Somewhere between tourist and resident
 slug: japan
 published: 2026-06-07
-image: image: https://library.wamphlett.net/photos/blog/japan/header.jpg
+image: https://library.wamphlett.net/photos/blog/japan/header.jpg
 -->
 Japan has become a huge part of my life over the last few years. What started as a holiday quickly turned into an obsession with the language, the culture and the challenge of understanding a country that often feels completely different from my own.
 
