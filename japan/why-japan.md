@@ -86,13 +86,11 @@ But that’s part of what makes it so interesting.
 
 <img src="https://library.wamphlett.net/photos/blog/japan/ginza-wagu.jpg?w=1080" alt="Ginza Wagu" />
 
-Let’s start with the important one.
-
-Soup curry.
+Let’s start with the important one.... Soup curry.
 
 Honestly, say no more. I could happily live on soup curry.
 
-Most people assume that because I love Japan, I must love sushi. The truth is that I’m not actually a huge sushi fan.
+Most people assume that because I love Japan, I must love sushi. Much to my girlfriends disappointment, the truth is that I’m not actually a huge sushi fan.
 
 Fortunately, Japan has far more to offer than sushi.
 
@@ -128,8 +126,6 @@ All I know is that whenever I leave Japan, I start thinking about when I can com
 
 And whenever somebody asks me why I want to move there, the most honest answer I can give is still the same one:
 
-> I don’t know exactly why.
-
-I just know it feels like where I’m supposed to be.
+> I don’t know exactly why. I just know it feels like where I’m supposed to be.
 
 <img src="https://library.wamphlett.net/photos/blog/japan/warren-nagano.jpg?w=1080" alt="Warren" />
