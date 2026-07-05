@@ -1,3 +1,9 @@
+<!--
+title: RTK - Why I chose Remembering the Kanji
+description: Part 1 of my Remembering the Kanji series
+slug: rtk-why-chose-remembering-the-kanji
+published: 2026-07-05
+-->
 # RTK - Why I Chose Remembering the Kanji
 
 If you follow me on Instagram or have spent any time with me over the past few months, you’ll probably know I’ve been reading the same book every single day.
@@ -61,7 +67,7 @@ The approach I expected
 
 Instead, the very first chapters introduced an idea I’d never even heard of before: mnemonics.
 
-A mnemonic is simply a memory aid—a way of making something easier to remember. Rather than asking you to memorise every kanji as a completely unique symbol, RTK encourages you to break them down into smaller building blocks and create memorable stories around them.
+A mnemonic is simply a memory aid - a way of making something easier to remember. Rather than asking you to memorise every kanji as a completely unique symbol, RTK encourages you to break them down into smaller building blocks and create memorable stories around them.
 
 At first, that sounded completely crazy. I’d genuinely never considered that people learnt things this way.
 
