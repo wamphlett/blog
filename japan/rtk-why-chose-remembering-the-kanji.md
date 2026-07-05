@@ -70,7 +70,19 @@ Instead, the very first chapters introduced an idea I’d never even heard of be
 
 A mnemonic is simply a memory aid - a way of making something easier to remember. Rather than asking you to memorise every kanji as a completely unique symbol, RTK encourages you to break them down into smaller building blocks and create memorable stories around them.
 
-At first, that sounded completely crazy. I’d genuinely never considered that people learnt things this way.
+For example - and stick with me here - take the kanji for tree 木 and the kanji for sun 日, if we put theses together we get the kanji for east 東. The way we can remember this is that the sun 日 rises up through the trees 木 to the east 東. When I see this kanji now, I think "_sun_ in the _trees_... happens when the _sun_ rises in the _east_".
+
+If we take another very popular kanji for gates 門 - which by itself, for mnemonic reasons, I remember as the gates of hell - and we add the kanji for 'two hands' 幵, and put them inside our gates, we get the kanji for open 開. This makes an easy to remember story of, "the _gates_ 門 of hell are so big you need _two hands_ 幵 to _open_ 開 them".
+
+Now, if we take our tree 木 and put it inside the gates 門 we get the kanji for leisure 閑. Here our story is, "There is just one _tree_ 木 inside the _gates_ 門 of hell which is where the residents spend their _lesuire_ 閑 time.".
+
+Of course, these are just the basic ideas and our compound kanjis can be made up into larger, more complex kanji in the future.
+
+<img src="https://library.wamphlett.net/photos/blog/japan/rtk-compounds.jpg?w=1080" alt="Kanji compounds" />
+
+Anyway, Im digressing, well save the details for a later post.
+
+At first, this all sounded completely crazy. I’d genuinely never considered that people learnt things this way. Worth noting at this point that mnemonics are not exclusive to Kanji.
 
 The book did something else that felt even stranger. It completely ignored pronunciation. Instead of trying to learn a kanji’s meaning, pronunciation, vocabulary and how to write it all at the same time, it focused on just one thing.
 
@@ -85,6 +97,7 @@ Even so, I wasn’t convinced.
 If I’m honest, I didn’t really understand why anyone would want to learn Japanese like this.
 
 ## My First Attempt
+<img src="https://library.wamphlett.net/photos/blog/japan/first-kanji.jpg?w=1080" alt="My first Kanji" />
 
 Despite all of that, I decided to buy the book and give it a go.
 
