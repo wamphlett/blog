@@ -122,6 +122,7 @@ Without that, I was trying to remember dozens of new characters while slowly for
 It was never going to work.
 
 ## Trying again
+<img src="https://library.wamphlett.net/photos/blog/japan/rtk-with-anki.jpg?w=1080" alt="RTK second attempt" />
 
 Almost a year later, in December 2025, I picked the book up again.
 
