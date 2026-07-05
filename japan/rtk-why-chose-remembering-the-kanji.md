@@ -1,111 +1,146 @@
-<!--
-title: RTK - Why I chose Remembering the Kanji
-description: Part 1 of my Remembering the Kanji series
-slug: rtk-why-chose-remembering-the-kanji
-published: 2026-07-05
--->
 # RTK - Why I Chose Remembering the Kanji
 
-Part 1 of my Remembering the Kanji series.
+If you follow me on Instagram or have spent any time with me over the past few months, you’ll probably know I’ve been reading the same book every single day.
+
+But why?
 
 If you’ve never studied Japanese before, it’s worth understanding one thing first.
 
-Japanese doesn’t just have one alphabet. It has two phonetic alphabets—hiragana and katakana—as well as thousands of Chinese characters known as kanji. Those kanji are used everywhere. Train station signs, restaurant menus, websites, books, text messages… they’re simply part of everyday life.
+Unlike English, Japanese isn’t written using a single alphabet. It uses two phonetic writing systems — hiragana and katakana — alongside thousands of Chinese characters known as kanji. Those kanji are everywhere. They’re on street signs, restaurant menus, websites, books, text messages and train stations. They’re simply part of everyday life.
 
-If you want to become fluent in Japanese, avoiding kanji isn’t really an option.
+If you want to become comfortable reading Japanese, avoiding kanji simply isn’t an option.
 
-This post isn’t about how I learnt them—that comes in the next article. Instead, I want to explain why I chose a book called Remembering the Kanji, and why it completely changed the way I thought about learning.
+This article isn’t about how I learnt them, that comes in the next post. Instead, I want to explain why I chose a book called Remembering the Kanji (often shortened to RTK) and why, despite having serious doubts about it for a very long time, I decided to trust the process.
 
 ## Kanji Started Piling Up
 
-When I first started learning Japanese, things felt fairly manageable.
+When I first started learning Japanese, things felt surprisingly manageable.
 
-I learnt hiragana first, followed by katakana. Grammar was challenging, but every lesson felt like progress, and I could see myself slowly becoming more comfortable with the language.
+I learnt hiragana first, followed by katakana. Grammar was challenging, but every lesson felt like progress. Even when things were difficult, I could always look back and feel like I was moving forwards.
 
 Then kanji started appearing.
 
-My teacher would introduce a new word, explain what it meant, and we’d move on. There was nothing wrong with that approach—that simply wasn’t what the lessons were focused on—but after a few months I realised something.
+As my teacher introduced new vocabulary, more and more kanji naturally found their way into the lessons. We’d learn a new word, I’d understand what it meant, and then we’d move on.
 
-Every lesson added another handful of kanji to the list.
+There was nothing wrong with that approach. My lessons weren’t designed to teach hundreds of individual kanji, they were designed to teach me Japanese.
 
-Eventually there were well over a hundred characters that I was somehow expected to remember, but I had absolutely no system for doing so. Each one felt like another completely unrelated fact that I was trying to squeeze into my brain.
+The problem was what happened afterwards.
 
-If I learnt a new one, I’d forget an old one.
+Every week added another handful of characters to my memory. Eventually there were well over a hundred that I was somehow expected to recognise, but I had absolutely no system for remembering them.
 
-If I remembered one, I’d mix it up with another.
+Each one felt like another random symbol. If I learnt a new one, I’d forget an old one. If I remembered one, I’d confuse it with another. The pile just kept getting bigger.
 
-It felt like trying to memorise hundreds of random symbols with nothing connecting them together.
+I noticed exactly the same thing whenever I visited Japan. Everywhere I looked there were signs, menus and station names covered in kanji. I wasn’t frustrated because I couldn’t read them, I expected that. What frustrated me was that I couldn’t see any logic in them. They all looked like completely unrelated pictures.
 
-That feeling became even more obvious whenever I visited Japan. Everywhere I looked there were signs, menus and station names filled with kanji. It wasn’t just frustrating because I couldn’t read them—I couldn’t even begin to understand how people remembered so many of them.
+I remember thinking:
 
-There had to be a better way.
+> Surely Japanese people aren’t just memorising thousands of completely random symbols.
+
+There had to be something I was missing.
 
 ## Looking For Another Way
 
-Like most people these days, my first stop was YouTube.
+Like most people these days, I started searching online.
 
-I started watching videos from people who had already learnt Japanese, hoping someone had found a sensible way of approaching kanji. One recommendation kept appearing: Remembering the Kanji by James Heisig.
+I watched YouTube videos from people who had already learnt Japanese, read blog posts and looked through countless recommendations. One resource kept appearing over and over again: [Remembering the Kanji by James Heisig](https://amzn.eu/d/060z0Bp9).
 
-The first place I came across it was a video from Matt vs Japan. After watching his explanation and reading a bit more online, I became curious enough to order a copy for myself.
+The first place I heard about it was in a video by [Matt vs Japan](https://www.youtube.com/@mattvsjapan). He spoke very highly of it and, after doing a bit more research myself, I decided to order a copy.
 
-At that point though, I still didn’t really understand what made it different.
+At that point, though, I still had absolutely no idea what made it different.
 
 ## Mnemonics… What’s That?
 
 When the book arrived, I expected it to teach kanji the same way every other resource I’d seen did.
 
-Show me the character.
+The approach I expected
 
-Tell me how to pronounce it.
-
-Give me a few example words.
-
-Repeat.
+- Show me the character.
+- Tell me how to pronounce it.
+- Give me a few example words.
+- Repeat.
 
 Instead, the very first chapters introduced an idea I’d never even heard of before: mnemonics.
 
-Rather than memorising every kanji as a completely unique symbol, the book encourages you to break them into smaller building blocks and create memorable stories around them.
+A mnemonic is simply a memory aid—a way of making something easier to remember. Rather than asking you to memorise every kanji as a completely unique symbol, RTK encourages you to break them down into smaller building blocks and create memorable stories around them.
 
-At first, that sounded completely bizarre.
+At first, that sounded completely crazy. I’d genuinely never considered that people learnt things this way.
 
-I’d genuinely never considered that people learnt things this way.
+The book did something else that felt even stranger. It completely ignored pronunciation. Instead of trying to learn a kanji’s meaning, pronunciation, vocabulary and how to write it all at the same time, it focused on just one thing.
 
-The more I read, though, the more it started to make sense. Instead of trying to learn everything about a kanji at once—its meaning, pronunciation, vocabulary and how to write it—the book focused on just one thing.
+Learn to associate each kanji with a single English meaning.
 
-Learn to recognise it.
+The book also expected me to write every single kanji by hand.
 
-Learn to write it.
+That actually appealed to me. I’ve always found that physically writing something helps me remember it better, and I knew Japanese has a correct stroke order for writing kanji. If I was going to learn them properly, I wanted to build those habits from the beginning.
 
-Everything else could come later.
+Even so, I wasn’t convinced.
 
-It felt completely backwards compared to every other method I’d seen, but at the same time it also made perfect sense. Maybe the reason I’d been struggling wasn’t because kanji were impossible. Maybe I was simply trying to learn too many things at once.
+If I’m honest, I didn’t really understand why anyone would want to learn Japanese like this.
 
 ## My First Attempt
 
-So I opened the book and got started.
+Despite all of that, I decided to buy the book and give it a go.
 
-Or at least, I tried.
+If I’m honest, I don’t think I really understood what I was doing. The method felt completely different from anything I’d used before. Instead of learning words or reading Japanese, I was creating strange little stories to remember characters. It all felt... odd.
 
-Looking back, I don’t think I really understood what I was supposed to be doing. The whole method felt so different from anything I’d experienced before that I struggled to trust the process.
+I made it somewhere around sixty or seventy kanji before giving up.
 
-I made it somewhere around sixty or seventy characters before quietly giving up.
+At the time, I assumed the method just wasn’t for me.
 
-At the time I blamed the book.
+Looking back now, I can see something much more important.
 
-Looking back now, I don’t think the book was the problem at all.
+I was treating RTK like an ordinary textbook.
+
+Read a few pages. Learn a few characters. Come back tomorrow.
+
+What I didn’t realise was that the book is really only half of the system.
+
+The other half is reviewing everything you’ve already learnt.
+
+Without that, I was trying to remember dozens of new characters while slowly forgetting everything that came before them.
+
+It was never going to work.
 
 ## Trying again
 
-Almost a year later, in December 2025, I picked Remembering the Kanji up again.
+Almost a year later, in December 2025, I picked the book up again.
 
 The book hadn’t changed.
 
 The method hadn’t changed.
 
-What had changed was me.
+I had.
 
-This time I decided I wasn’t going to treat it like something I’d work on whenever I felt motivated. If I was going to do it, I was going to commit to it. Every day, no excuses.
+By that point, kanji no longer felt like something I probably ought to learn one day. They had become the biggest obstacle to progressing with reading Japanese. Every lesson introduced more of them, and every trip to Japan reminded me just how dependent everyday life was on them.
 
-That single decision ended up being far more important than choosing the book itself.
+I didn’t just want to pass lessons or tick another textbook off a list anymore. I wanted to walk around Japan and slowly become more independent. I wanted to recognise station names, understand signs and rely a little less on Google Translate every time I visited.
 
-In the next post I’ll explain exactly how I approached RTK, the study system I settled on, and why that second attempt was completely different from the first.
+The first time I picked up RTK, I did it because it seemed like something I should probably be doing.
+
+The second time, I picked it up because it had become a necessity.
+
+There was one other major difference this time around.
+
+I wasn’t relying on the book alone anymore. I’d also discovered a flashcard application called Anki. At the time, I didn’t realise just how important it would become, but looking back I genuinely don’t think I could have completed RTK without it.
+
+I’ll explain exactly how I used Anki alongside RTK in the next post because, in my opinion, the two go hand in hand.
+
+Even then, I still wasn’t convinced the method actually worked.
+
+If you’d asked me after 500 or even 1,000 kanji whether RTK was worth it, I honestly don’t think I could have answered.
+
+For months I still had doubts. I often finished a study session convinced I’d forgotten everything I’d learnt before. There were days where I genuinely wondered whether I was wasting my time.
+
+Looking back now, that’s probably the biggest lesson RTK taught me.
+
+> Sometimes, you have to commit to a process long before you can tell whether it’s working.
+
+I didn’t keep going because I knew RTK worked.
+
+I kept going because hundreds of people before me had said it did, and I decided to trust their experience until I had enough of my own.
+
+Eventually, I experienced the moment that made everything click.
+
+But that’s a story for another post.
+
+Before we get there though, I want to explain the study system I built around RTK. Because while the book was important, I don’t think it would have worked for me without Anki, and I definitely don’t think it would’ve worked without a consistent daily routine.
