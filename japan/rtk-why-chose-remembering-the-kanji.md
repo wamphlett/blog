@@ -4,6 +4,7 @@ description: Part 1 of my Remembering the Kanji series
 slug: rtk-why-chose-remembering-the-kanji
 image: https://library.wamphlett.net/photos/blog/japan/the-rtk-book.jpg
 published: 2026-07-05
+series: Remembering the Kanji
 -->
 # RTK - Why I Chose Remembering the Kanji
 
