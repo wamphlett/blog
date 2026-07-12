@@ -137,7 +137,7 @@ Having a book with 2,200 characters also means you're not going to reach your go
 
 Those little goals always felt much more achievable than simply telling myself to "finish the book."
 
-Around the halfway point I also decided to start posting my progress on Instagram.
+I also decided to start posting my progress on Instagram.
 
 RTK is actually quite a lonely thing to do. You spend months sitting on your own making stories and reviewing flashcards, so sharing the journey gave me another reason to keep turning up. It wasn't about showing off, it was just another little reminder to myself that I'd committed to this and I wanted to see it through.
 
