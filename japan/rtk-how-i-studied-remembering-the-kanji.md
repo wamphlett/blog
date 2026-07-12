@@ -45,6 +45,7 @@ RTK is very clear that you should write every kanji as you learn it so I picked 
 So, with just a book, a flashcard app and a couple of notebooks and a lot of determination, I started.
 
 ## Sticking to the same routine every day
+<image src="https://library.wamphlett.net/photos/blog/japan/rtk-morning-routine.jpg?w=1080" alt="Morning routine">
 With everything finally in place, it was time to begin.
 
 Very quickly, I fell into a routine.
@@ -141,6 +142,8 @@ Having a book with 2,200 characters also means you're not going to reach your go
 Those little goals always felt much more achievable than simply telling myself to "finish the book."
 
 I also decided to start posting my progress on Instagram.
+
+<image src="https://library.wamphlett.net/photos/blog/japan/rtk-instagram-1000.jpg?w=1080" alt="Instagram story">
 
 RTK is actually quite a lonely thing to do. You spend months sitting on your own making stories and reviewing flashcards, so sharing the journey gave me another reason to keep turning up. It wasn't about showing off, it was just another little reminder to myself that I'd committed to this and I wanted to see it through.
 
