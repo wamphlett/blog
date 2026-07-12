@@ -5,7 +5,6 @@ slug: rtk-how-i-studied-remembering-the-kanji
 image: https://library.wamphlett.net/photos/blog/japan/the-rtk-book.jpg
 series: Remembering the Kanji
 -->
-
 # RTK - How I Studied Remembering the Kanji
 In the [previous post](./rtk-why-chose-remembering-the-kanji.md), I talked about why I chose Remembering the Kanji (RTK) in the first place. This time, I want to show you what actually studying it looked like.
 
@@ -15,7 +14,7 @@ I'll just say it... quite frankly, I think these people are full of shit.
 
 Sure, maybe there are people out there who've genuinely managed it. If so, good on them. I certainly didn't. 
 
-Maybe Im being harsh, but at the very least, these people are greatly misleading the vast majority of people. Selling them false hope that this book is an easy win if you want to learn kanji. 
+Maybe I'm being harsh, but at the very least, these people are greatly misleading the vast majority of people. Selling them false hope that this book is an easy win if you want to learn kanji. 
 
 I don't consider myself someone who's bad at learning, my software engineering career depends on it. I gave this book absolutely everything I had. I studied every single day for months, built my routine around it, wrote every kanji by hand and still found myself mentally exhausted at times.
 
