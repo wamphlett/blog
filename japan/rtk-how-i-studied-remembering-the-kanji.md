@@ -2,7 +2,7 @@
 title: RTK - How I Studied Remembering the Kanji
 description: Part 2 of my Remembering the Kanji series
 slug: rtk-how-i-studied-remembering-the-kanji
-image: https://library.wamphlett.net/photos/blog/japan/the-rtk-book.jpg
+image: https://library.wamphlett.net/photos/blog/japan/morning-revision.jpg
 series: Remembering the Kanji
 -->
 # RTK - How I Studied Remembering the Kanji
@@ -31,6 +31,7 @@ If you're reading this because you're learning Japanese, hopefully you'll pick u
 If you're reading this because you're wondering why I've spent the last six months talking about kanji on Instagram, hopefully this will answer that too.
 
 ## Getting started... again.
+<image src="https://library.wamphlett.net/photos/blog/japan/rtk-notebook-writing.jpg?w=1080" alt="Writing again">
 If you read part one, you'll know I'd already tried and failed once. The first time I picked up RTK, I thought it was probably something I should be doing. This time, it had become a necessity, so I knew things had to be different.
 
 Before I even opened my copy of Remembering the Kanji and learnt my very first kanji, I spent a bit of time thinking about how I actually wanted to approach this. This time, I knew I needed a system so off to YouTube I went and I watched a bunch of videos. That's when I found probably the most important tool, Anki.
@@ -92,6 +93,8 @@ Fairly early on, I noticed something that had a pretty big impact on the way I w
 I was becoming much better at recognising kanji than I was at writing them.
 
 I needed to be writing more so I got a second notebook and, during my morning reviews, I would write every card I saw. I now had two books; one where I wrote the kanji for the first time and a notebook which was allowed to be messy and where mistakes were okay.
+
+<image src="https://library.wamphlett.net/photos/blog/japan/rtk-writing-books.jpg?w=1080" alt="Two notebooks">
 
 I also duplicated every card and added a second version that worked in reverse. Instead of seeing the kanji first, I'd only see the English keyword and have to write the character from memory before revealing the answer.
 
