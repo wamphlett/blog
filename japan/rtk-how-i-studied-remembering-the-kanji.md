@@ -23,7 +23,7 @@ The fact is, this book is hard.
 
 And that's okay.
 
-I didn't start this article to criticise people who've had a different experience to me. I started with it because I think it's important to set realistic expectations. RTK isn't a miracle one-stop shop for learning kanji. It's a long-term commitment, and pretending otherwise only sets people up for disappointment. I'm not here to tell you the fastest way to finish RTK or even to tell you how you 'should' do it, but to show you what the process actually looked like for one person juggling normal life, who managed to stick with it.
+I didn't start this post to criticise people who've had a different experience to me. I started with it because I think it's important to set realistic expectations. RTK isn't a miracle one-stop shop for learning kanji. It's a long-term commitment, and pretending otherwise only sets people up for disappointment. I'm not here to tell you the fastest way to finish RTK or even to tell you how you 'should' do it, but to show you what the process actually looked like for one person juggling normal life, who managed to stick with it.
 
 My way won't be the right way for everyone. In fact, there are things I'd change if I started again (we'll get to those in the next post). But this is the system that got me from page one to page 427.
 
@@ -36,20 +36,20 @@ If you're reading this because you're wondering why I've spent the last six mont
 
 If you read part one, you'll know I'd already tried and failed once. The first time I picked up RTK, I thought it was probably something I should be doing. This time, it had become a necessity, so I knew things had to be different.
 
-Before I even opened my copy of Remembering the Kanji and learnt my very first kanji, I spent a bit of time thinking about how I actually wanted to approach this. This time, I knew I needed a system so off to YouTube I went and I watched a bunch of videos. That's when I found probably the most important tool, Anki.
+Before I even opened my copy of Remembering the Kanji and learnt my very first kanji, I spent a bit of time thinking about how I actually wanted to approach this. This time, I knew I needed a system so off to YouTube I went and I watched a bunch of videos. That's when I found probably the most important tool, [Anki](https://apps.ankiweb.net/).
 
 If you've never come across it before, Anki is essentially a flashcard application. Every time you answer a card, it estimates when you're likely to forget it and schedules it accordingly. Get something wrong and it'll show it to you again sooner. Get it right and it gradually pushes that review further into the future.
 
+<image src="https://library.wamphlett.net/photos/blog/japan/rtk-anki.jpg?w=1080" alt="Anki">
+
 Without Anki, I genuinely don't think I would've finished RTK.
 
-RTK is very clear that you should write every kanji as you learn it so I picked up a genkō yōshi notebook - the squared paper commonly used for practising Japanese writing, a couple of nice pens and some sticky notes from Amazon. I downloaded a pre-made RTK deck for Anki and, for the first time, I actually felt ready to start.
+RTK is very clear that you should write every kanji as you learn it so I picked up a genkō yōshi notebook - the squared paper commonly used for practising Japanese writing, a couple of nice pens and some sticky notes from Amazon. I downloaded a pre-made RTK [deck](https://ankiweb.net/shared/info/1654787298) for Anki and, for the first time, I actually felt ready to start.
 
 So, with just a book, a flashcard app and a couple of notebooks and a lot of determination, I started.
 
 ## Sticking to the same routine every day
 <image src="https://library.wamphlett.net/photos/blog/japan/rtk-morning-routine.jpg?w=1080" alt="Morning routine">
-
-With everything finally in place, it was time to begin.
 
 Very quickly, I fell into a routine.
 
@@ -61,7 +61,7 @@ It didn't matter whether there were fifty cards waiting for me or three hundred.
 
 Only then would I get on with the rest of my day.
 
-As I mentioned in the previous article, RTK revolves around creating memorable stories for each kanji. What I hadn't appreciated at the time was just how much of my day those stories would end up occupying. 
+As I mentioned in the previous post, RTK revolves around creating memorable stories for each kanji. What I hadn't appreciated at the time was just how much of my day those stories would end up occupying. 
 
 One thing I found myself doing naturally was reading ahead. Whenever I had a spare ten or fifteen minutes during the day, I'd pick up RTK and read through the next handful of kanji. I wasn't trying to memorise them yet, I was just trying to understand the stories and let them sit in the back of my mind.
 
@@ -69,7 +69,7 @@ Sometimes a story would jump out at me immediately.
 
 Other times I'd spend hours with the same kanji floating around in my head, hoping something would eventually click. It became surprisingly common for me to be thinking about kanji while I was doing completely unrelated things.
 
-Along the way, I realised that some types of stories worked far better than others. I'll come back to that in the next article because it ended up being one of the biggest lessons I learnt from RTK.
+Along the way, I realised that some types of stories worked far better than others. I'll come back to that in the next post because it ended up being one of the biggest lessons I learnt from RTK.
 
 By the evening, I usually had a rough idea of how I wanted to remember the next batch of characters.
 
@@ -109,7 +109,7 @@ It essentially doubled my review workload overnight but it also highlighted some
 ## Then I was on my own
 When I got to part three of the book, I needed to make another change.
 
-For context, Remembering the Kanji is broken up into three parts. Part one, **Stories**, where James tells you his stories in detail for the first 294 characters. Part two, **Plots**, where he gives you ideas to work with for the next 298 characters and you shape them into something that works for you. Then finally, part three, **Elements**, where he more or less sets you free on the remaining 1,608 characters. He simply tells you the components of a kanji and leaves you to create your own stories from scratch.
+For context, Remembering the Kanji is broken up into three parts. Part one, **Stories**, where Heisig tells you his stories in detail for the first 294 characters. Part two, **Plots**, where he gives you ideas to work with for the next 298 characters and you shape them into something that works for you. Then finally, part three, **Elements**, where he more or less sets you free on the remaining 1,608 characters. He simply tells you the components of a kanji and leaves you to create your own stories from scratch.
 
 Remember when I told you that people say the first 600 are easy and the rest fly by?
 
@@ -123,11 +123,15 @@ And let me tell you, some of these kanji are so abstract that making a memorable
 
 This was the point where I realised making the stories was becoming just as difficult as remembering the kanji themselves.
 
-This is where I found Kanji Koohii, an online RTK community where people share the stories they've created. It quickly became one of my favourite resources because, although I rarely copied anyone else's stories, seeing how somebody else had approached the same kanji was often enough to spark an idea of my own.
+The best way to understand this is to try it yourself. Give it a go. Take the the words `cocoon` and `clothes hanger` and make a story which helps you vividly remember the word `Phantasm`. 
 
-When I got more comfortable making stories, I also started leaning heavily on JapanDict, an online Japanese dictionary that lets you see how kanji are actually used in real words. That made it much easier to create stories that related to how I'd eventually encounter those kanji outside of RTK.
+<image src="https://library.wamphlett.net/photos/blog/japan/phantasm.jpg?w=1080" alt="Phantasm">
 
-But that's a topic for the next article.
+This is where I found [Kanji Koohii](https://kanji.koohii.com/), an online RTK community where people share the stories they've created. It quickly became one of my favourite resources because, although I rarely copied anyone else's stories, seeing how somebody else had approached the same kanji was often enough to spark an idea of my own.
+
+When I got more comfortable making stories, I also started leaning heavily on [JapanDict](https://www.japandict.com), an online Japanese dictionary that lets you see how kanji are actually used in real words. That made it much easier to create stories that related to how I'd eventually encounter those kanji outside of RTK.
+
+But that's a topic for the next post.
 
 ## Staying Consistent
 One final thing I want to talk about before I wrap this up is consistency.
@@ -158,7 +162,7 @@ That didn't mean stopping my reviews though.
 
 Remember, miss a few days of reviews and your backlog quickly becomes overwhelming. By continuing those every morning, I could enjoy the time we had together without worrying that I'd be coming back to an impossible mountain of cards.
 
-Sometimes we'd even do the reviews together, which, admittedly, is one of the perks of having a Japanese girlfriend. Although I appreciate that's probably not an option for everyone... sorry! 😄
+Sometimes we'd even do the reviews together, which, admittedly, is one of the perks of having a Japanese girlfriend. Although I appreciate that's probably not an option for everyone... sorry!
 
 ## Looking Back
 Looking back now, there wasn't anything particularly revolutionary about the way I studied RTK.
@@ -169,13 +173,13 @@ What I did have was a routine that slowly evolved alongside me. Every time I fou
 
 That doesn't mean it'll be the right system for you.
 
-In fact, if there's one thing I hope you take away from this article, whether it's the people online claiming they finished RTK in six weeks, the genuinely helpful creators sharing their experiences on YouTube, or even this post itself, it's this:
+In fact, if there's one thing I hope you take away from this post, whether it's the people online claiming they finished RTK in six weeks, the genuinely helpful creators sharing their experiences on YouTube, or even this post itself, it's this:
 
 **Don't blindly copy somebody else's routine.**
 
 Steal ideas, absolutely. Keep what works. Throw away what doesn't. Build a system around the way you learn, not the way someone else does.
 
-In the next article, I want to go a step further.
+In the next post, I want to go a step further.
 
 Now that I've finished RTK, there are quite a few things I wish somebody had told me before I started. Things like what makes a good mnemonic, why some stories stick while others disappear completely, when it's okay to change Heisig's keywords and the mistakes that cost me time along the way.
 
