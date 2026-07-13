@@ -33,6 +33,7 @@ If you're reading this because you're wondering why I've spent the last six mont
 
 ## Getting started... again.
 <image src="https://library.wamphlett.net/photos/blog/japan/rtk-notebook-writing.jpg?w=1080" alt="Writing again">
+
 If you read part one, you'll know I'd already tried and failed once. The first time I picked up RTK, I thought it was probably something I should be doing. This time, it had become a necessity, so I knew things had to be different.
 
 Before I even opened my copy of Remembering the Kanji and learnt my very first kanji, I spent a bit of time thinking about how I actually wanted to approach this. This time, I knew I needed a system so off to YouTube I went and I watched a bunch of videos. That's when I found probably the most important tool, Anki.
@@ -47,6 +48,7 @@ So, with just a book, a flashcard app and a couple of notebooks and a lot of det
 
 ## Sticking to the same routine every day
 <image src="https://library.wamphlett.net/photos/blog/japan/rtk-morning-routine.jpg?w=1080" alt="Morning routine">
+
 With everything finally in place, it was time to begin.
 
 Very quickly, I fell into a routine.
