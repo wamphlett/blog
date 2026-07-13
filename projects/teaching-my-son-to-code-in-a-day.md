@@ -2,7 +2,7 @@
 title: Teaching my son to code in a day
 description: How I turned my son's work placement day into a real Python project, with a little help from AI
 slug: teaching-my-son-to-code-in-a-day
-published: 17-07-2026
+published: 2026-07-17
 -->
 
 # Teaching my son to code in a day
