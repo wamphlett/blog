@@ -5,6 +5,7 @@ slug: rtk-why-chose-remembering-the-kanji
 image: https://library.wamphlett.net/photos/blog/japan/the-rtk-book.jpg
 published: 2026-07-05
 series: Remembering the Kanji
+priority: 10
 -->
 # RTK - Why I Chose Remembering the Kanji
 
