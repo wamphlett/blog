@@ -4,7 +4,7 @@ description: Part 2 of my Remembering the Kanji series
 slug: rtk-how-i-studied-remembering-the-kanji
 image: https://library.wamphlett.net/photos/blog/japan/morning-revision.jpg
 series: Remembering the Kanji
-published: 2026-07-13
+published: 2026-07-15
 -->
 # RTK - How I Studied Remembering the Kanji
 In the [previous post](./rtk-why-chose-remembering-the-kanji.md), I talked about why I chose Remembering the Kanji (RTK) in the first place. This time, I want to show you what actually studying it looked like.
@@ -86,13 +86,9 @@ I hadn't.
 
 The overall structure stayed exactly the same but the finer details changed.
 
-It didn't take long before I realised my first version of the system wasn't quite right.
+For example, the deck I'd downloaded contained all 2,200 kanji in one giant list - this is perfect if I had already finished the book. But I was adding 20-30 kanji per day. So I used tags and created what Anki calls a filtered deck. Don't let the name put you off - all that really means is I only reviewed the kanji I'd actually reached in the book rather than seeing cards from hundreds of pages ahead.
 
-One of the first things I changed was my Anki deck.
-
-The deck I'd downloaded contained all 2,200 kanji in one giant list. That didn't really fit the way I was working through the book, so I split it into chapters and created what Anki calls a filtered deck. Don't let the name put you off - all that really means is I only reviewed the kanji I'd actually reached in the book rather than seeing cards from hundreds of pages ahead.
-
-Fairly early on, I noticed something that had a pretty big impact on the way I was studying.
+But fairly early on, I noticed a bigger issue. Something that was going to have a pretty big impact on the way I was studying.
 
 I was becoming much better at recognising kanji than I was at writing them.
 
@@ -100,7 +96,7 @@ I needed to be writing more so I got a second notebook and, during my morning re
 
 <image src="https://library.wamphlett.net/photos/blog/japan/rtk-writing-books.jpg?w=1080" alt="Two notebooks">
 
-I also duplicated every card and added a second version that worked in reverse. Instead of seeing the kanji first, I'd only see the English keyword and have to write the character from memory before revealing the answer.
+I also duplicated every Anki card and added a second version that worked in reverse. Instead of seeing the kanji first, I'd only see the English keyword and have to write the character from memory before revealing the answer.
 
 That single change completely changed the way I studied.
 
