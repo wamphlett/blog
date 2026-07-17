@@ -6,6 +6,7 @@ image: https://library.wamphlett.net/photos/blog/japan/morning-revision.jpg
 series: Remembering the Kanji
 published: 2026-07-15
 priority: 20
+featured: true
 -->
 # RTK - How I Studied Remembering the Kanji
 In the [previous post](./rtk-why-chose-remembering-the-kanji.md), I talked about why I chose Remembering the Kanji (RTK) in the first place. This time, I want to show you what actually studying it looked like.
