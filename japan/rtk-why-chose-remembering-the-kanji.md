@@ -6,6 +6,7 @@ image: https://library.wamphlett.net/photos/blog/japan/the-rtk-book.jpg
 published: 2026-07-05
 series: Remembering the Kanji
 priority: 10
+featured: true
 -->
 # RTK - Why I Chose Remembering the Kanji
 
