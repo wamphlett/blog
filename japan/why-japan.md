@@ -4,6 +4,8 @@ description: Trying to answer the question I get asked most: why Japan?
 slug: why-japan
 image: https://library.wamphlett.net/photos/blog/japan/why-japan.jpg
 published: 2026-06-07
+featured: true
+timeline: true
 -->
 # Why Japan?
 Whether it’s people at home, friends in Japan, or people I meet along the way, the questions I always get are:
