@@ -3,7 +3,8 @@ title: Teaching my son to code in a day
 description: How I turned my son's work placement day into a real Python project, with a little help from AI
 slug: teaching-my-son-to-code-in-a-day
 image: https://library.wamphlett.net/photos/blog/projects/tylers-first-program.jpg
-published: 2026-07-13
+published: 2026-07-24
+featured: true
 -->
 
 # Teaching my son to code in a day
